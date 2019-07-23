@@ -14,11 +14,7 @@ class MainScreen extends Component{
 
     static navigationOptions = {
 
-        headerLeft: <Icon name="md-camera"
-            style={{ paddingLeft:10}}/>,
-        title:"Instagram",
-        headerRight: <Icon name="md-heart"
-            style={{ paddingRight:10}}/>
+        header : null
     }
 
     render(){
